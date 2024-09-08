@@ -1,8 +1,8 @@
+import json
 def coletar_informacoes_pet():
     print("Por favor, insira as informações sobre seu pet.")
 
     # Coleta do nome do pet
-    nome = input("Nome do pet: ")
     while not nome.strip():
         print("Por favor, insira um nome válido para o pet.")
         nome = input("Nome do pet: ")
