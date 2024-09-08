@@ -35,7 +35,7 @@ Este é um projeto foi licenciando com MIT LICENSE que aceita contribuições vi
 1. Crie um fork deste repositório em seu github
 2. Envie seus commits em português com esses [padrões](https://www.conventionalcommits.org/pt-br/v1.0.0/).
 3. Faça uma breve descrição sobre o que foi adicionado ou modificado.
-4. Solicite um pull request.
+4. Solicite um pull request, como no exemplo [link](https://www.freecodecamp.org/portuguese/news/como-fazer-o-seu-primeiro-pull-request-no-github/).
 5. Se envolva ativamente na comunidade desse projeto.
 
 
