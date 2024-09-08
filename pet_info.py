@@ -3,6 +3,12 @@ def coletar_informacoes_pet():
 
     # Coleta do nome do pet
     nome = input("Nome do pet: ")
+    while not nome.strip():
+        print("Por favor, insira um nome válido para o pet.")
+        nome = input("Nome do pet: ")
+    
+    tipo =  input("Tipo do pet: ")
+
 
     # Coleta da idade do pet, garantindo que seja um número inteiro
     while True:
@@ -31,6 +37,7 @@ def coletar_informacoes_pet():
     print(f"Nome: {nome}")
     print(f"Idade: {idade} anos")
     print(f"Peso: {peso} kg")
+    print(f"Tipo: {tipo}")
 
 # Chama a função para coletar e exibir as informações do pet
 coletar_informacoes_pet()
