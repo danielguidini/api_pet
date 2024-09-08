@@ -12,7 +12,7 @@ def coletar_informacoes_pet():
     print("1. Canidéos")
     print("2. Felinos")
     print("3. Aves")
-    print("4. Répteis &  Anfíbios")
+    print("4. Répteis & Anfíbios")
 
 
     while True:
@@ -59,6 +59,18 @@ def coletar_informacoes_pet():
     print(f"Idade: {idade} anos")
     print(f"Peso: {peso} kg")
     print(f"Tipo: {tipo}")
+
+    # Armazenar as informações do pet em um dicionário
+    pet_info = {
+            "nome": nome,
+            "tipo": tipo,
+            "idade": idade,
+            "peso": peso
+        }
+
+        # Salvar as informações do pet em um arquivo
+    with open("pet_info.json", "w") as arquivo:
+            json.dump(pet_info, arquivo)
 
 # Chama a função para coletar e exibir as informações do pet
 coletar_informacoes_pet()
