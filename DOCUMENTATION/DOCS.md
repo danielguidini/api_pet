@@ -1,4 +1,4 @@
-## Documentação de api_pet.py
+## Documentação de API_PET
 ### Visão Geral
 O script api_pet.py é um programa em Python que coleta e armazena informações sobre um pet. Ele solicita ao usuário que insira o nome, tipo, idade e peso do pet e, em seguida, armazena essas informações em um arquivo JSON.
 
