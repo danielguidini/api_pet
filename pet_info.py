@@ -7,8 +7,29 @@ def coletar_informacoes_pet():
         print("Por favor, insira um nome válido para o pet.")
         nome = input("Nome do pet: ")
     
-    tipo =  input("Tipo do pet: ")
+    # Coleta do tipo do pet, garante que o pet seja definido por seu tipo
+    print("Selecione o tipo do pet:")
+    print("1. Canidéos")
+    print("2. Felinos")
+    print("3. Aves")
+    print("4. Répteis &  Anfíbios")
 
+
+    while True:
+        tipo = input("Tipo do pet (digite o número da opção): ")
+        if tipo in ["1", "2", "3", "4"]:
+            if tipo == "1":
+                tipo = "Canidéos"
+            elif tipo == "2":
+                tipo = "Felinos"
+            elif tipo == "3":
+                tipo = "Aves"
+            elif tipo == "4":
+                tipo = "Répteis & Anfíbios"
+
+            break
+        else:
+            print("Por favor, insira um número válido para o tipo do pet.")
 
     # Coleta da idade do pet, garantindo que seja um número inteiro
     while True:
