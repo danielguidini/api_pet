@@ -42,3 +42,4 @@ Este é um projeto foi licenciando com MIT LICENSE que aceita contribuições vi
 ## Creditos
 
 [iuricode](https://github.com/iuricode/padroes-de-commits/main/README.md)
+[freecodecamp](https://www.freecodecamp.org/portuguese/news/como-fazer-o-seu-primeiro-pull-request-no-github/)
